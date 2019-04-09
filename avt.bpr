@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="avt.exe"/>
+    <OBJFILES value="avt.obj Unit1.obj"/>
+    <RESFILES value="avt.res"/>
+    <IDLFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Unit1.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="dclusr.lib dxForumLibC6.lib indy.lib A406_R61.lib tee.lib vcldbx.lib 
+      iocomp65.lib dclocx.lib bdertl.lib vcldb.lib dbrtl.lib vclx.lib bcbsmp.lib 
+      vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib bcbsmp.lib vclx.lib dbrtl.lib vcldb.lib bdertl.lib 
+      dclocx.lib iocomp65.lib vcldbx.lib tee.lib A406_R61.lib indy.lib 
+      dxForumLibC6.lib dclusr.lib"/>
+    <PACKAGES value="vclx.bpi rtl.bpi vcl.bpi dbrtl.bpi vcldb.bpi bdertl.bpi vcldbx.bpi 
+      bcbsmp.bpi dclocx.bpi qrpt.bpi teeui.bpi teedb.bpi tee.bpi ibsmp.bpi 
+      nmfast.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG;madExcept"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="avt.cpp"/>
+    <INCLUDEPATH value="&quot;..\Cross-Tipple-Tmp\Sequoia Sentry v2 Cross Tipple&quot;;..\..\AccessViolation-test;$(BCB)\Include\Ventek;&quot;C:\Program Files\ExpressForumLibrary\C++Builder 6\Lib&quot;;$(BCB)\Bin;..;..\IO_Lib;$(BCB)\include;$(BCB)\include\vcl;c:\Iocomp\Product\CBuilder6;&quot;C:\Program Files\madCollection\madBasic\BCB6&quot;;&quot;C:\Program Files\madCollection\madDisAsm\BCB6&quot;;&quot;C:\Program Files\madCollection\madExcept\BCB6&quot;;&quot;C:\Program Files\madCollection\madExcept\..\Plugins\win32&quot;;&quot;C:\Program Files\madCollection\madKernel\BCB6&quot;;&quot;C:\Program Files\madCollection\madSecurity\BCB6&quot;;&quot;C:\Program Files\madCollection\madShell\BCB6&quot;"/>
+    <LIBPATH value="&quot;..\Cross-Tipple-Tmp\Sequoia Sentry v2 Cross Tipple&quot;;..\..\AccessViolation-test;$(BCB)\Include\Ventek;..;..\IO_Lib;$(BCB)\Bin;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;&quot;C:\Program Files\ExpressForumLibrary\C++Builder 6\Lib&quot;;c:\Iocomp\Product\CBuilder6;&quot;C:\Program Files\madCollection\madBasic\BCB6&quot;;&quot;C:\Program Files\madCollection\madDisAsm\BCB6&quot;;&quot;C:\Program Files\madCollection\madExcept\BCB6&quot;;&quot;C:\Program Files\madCollection\madExcept\..\Plugins\win32&quot;;&quot;C:\Program Files\madCollection\madKernel\BCB6&quot;;&quot;C:\Program Files\madCollection\madSecurity\BCB6&quot;;&quot;C:\Program Files\madCollection\madShell\BCB6&quot;"/>
+    <WARNINGS value="-w-pch -w-par -w-8027 -w-8026 -wcln -w-aus"/>
+    <WARNOPTSTR value=""/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-Od -H=c:\PROGRA~1\borland\CBUILD~2\lib\vcl60.csm -Vx -Ve -Tkh30000 -X- 
+      -r- -a8 -5 -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$Y+ -$W -$R -$Q -$O- -$A8 -v -M -JPHNE"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -GD -s -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="avt.res" FORMNAME="" UNITNAME="avt.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="avt.cpp" FORMNAME="" UNITNAME="avt" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit1.cpp" FORMNAME="Form1" UNITNAME="Unit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=8
+MinorVer=58
+Release=14
+Build=8
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=VENTEK-INC
+FileDescription=Veneer Dryer Control System
+FileVersion=8.58.14.8
+InternalName=Sequoia Sentry DC
+LegalCopyright=Copyright 2011 Ventek, Inc.
+LegalTrademarks=
+OriginalFilename=
+ProductName=Veneer Dryer Control System
+ProductVersion=8.50 series
+Comments=expanded for 14 brush ( 10' ) systems
+
+[Excluded Packages]
+C:\Program Files\Scs4b6t\lib\dscs4t.bpl=Source Code Scanners Components
+
+[HistoryLists\hlIncludePath]
+Count=30
+Item0=..\Cross-Tipple-Tmp\Sequoia Sentry v2 Cross Tipple;..\..\AccessViolation-test;C:\Program Files\Borland\CBuilder6\Include\Ventek;C:\Program Files\ExpressForumLibrary\C++Builder 6\Lib;C:\Program Files\Borland\CBuilder6\Bin;..;..\IO_Lib;$(BCB)\include;$(BCB)\include\vcl;c:\Iocomp\Product\CBuilder6
+Item1=C:\Program Files\Borland\CBuilder6\Include\Ventek;C:\Program Files\ExpressForumLibrary\C++Builder 6\Lib;C:\Program Files\Borland\CBuilder6\Bin;..;..\IO_Lib;$(BCB)\include;$(BCB)\include\vcl;c:\Iocomp\Product\CBuilder6
+Item2=C:\Program Files\Borland\CBuilder6\Include\Ventek;D:\Program Files\Developer Express Inc\ExpressForumLibrary\C++Builder 6\Lib;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Developer Express Inc\ExpressForumLibrary\C++Builder 6\Lib;C:\Program Files\Iocomp\Components\CBuilder6;D:\Iocomp\Product\CBuilder6;..;..\IO_Lib;$(BCB)\include;$(BCB)\include\vcl;c:\Iocomp\Product\CBuilder6
+Item3=..\TemperatureTest;C:\Program Files\Borland\CBuilder6\Include\Ventek;D:\Program Files\Developer Express Inc\ExpressForumLibrary\C++Builder 6\Lib;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Developer Express Inc\ExpressForumLibrary\C++Builder 6\Lib;C:\Program Files\Iocomp\Components\CBuilder6;D:\Iocomp\Product\CBuilder6;..;..\IO_Lib;$(BCB)\include;$(BCB)\include\vcl
+Item4=..\TemperatureTest;C:\Program Files\Borland\CBuilder6\Include\Ventek;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Developer Express Inc\ExpressForumLibrary\C++Builder 6\Lib;C:\Program Files\Iocomp\Components\CBuilder6;D:\Iocomp\Product\CBuilder6;..;..\IO_Lib;$(BCB)\include;$(BCB)\include\vcl
+Item5=C:\Program Files\Borland\CBuilder6\Include\Ventek;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Developer Express Inc\ExpressForumLibrary\C++Builder 6\Lib;C:\Program Files\Iocomp\Components\CBuilder6;D:\Iocomp\Product\CBuilder6;..;..\IO_Lib;$(BCB)\include;$(BCB)\include\vcl
+Item6=C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Developer Express Inc\ExpressForumLibrary\C++Builder 6\Lib;C:\Program Files\Iocomp\Components\CBuilder6;D:\Iocomp\Product\CBuilder6;..;..\IO_Lib;$(BCB)\include;$(BCB)\include\vcl
+Item7=C:\Program Files\Developer Express Inc\ExpressForumLibrary\C++Builder 6\Lib;C:\Program Files\Iocomp\Components\CBuilder6;D:\Iocomp\Product\CBuilder6;..;..\IO_Lib;$(BCB)\include;$(BCB)\include\vcl
+Item8=C:\Program Files\Iocomp\Components\CBuilder6;D:\Iocomp\Product\CBuilder6;..;..\IO_Lib;$(BCB)\include;$(BCB)\include\vcl
+Item9=C:\Program Files\Iocomp\Components\CBuilder6;..;..\IO_Lib;$(BCB)\include;$(BCB)\include\vcl
+Item10=..;..\IO_Lib;$(BCB)\include;$(BCB)\include\vcl
+Item11=..;..\IO_Lib;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\include;$(BCB)\include\vcl
+Item12=..;..\IO_Lib;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\Bin;$(BCB)\include;$(BCB)\include\vcl
+Item13=..;..\;..\IO_Lib;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\include;$(BCB)\include\vcl
+Item14=..\IO_Lib;C:\APRO\source;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\APRO\source
+Item15=..\IO_Lib;C:\APRO\source;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\APRO
+Item16=..\IO_Lib;C:\Program Files\APRO\source;C:\APRO\source;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\include;$(BCB)\include\vcl
+Item17=..\IO_Lib;C:\Program Files\APRO\source;C:\APRO\source;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;D:\CSrc ver 6\6IO_Lib;$(BCB)\include;$(BCB)\include\vcl
+Item18=..\IO_Lib;C:\Program Files\APRO;C:\APRO\source;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;D:\CSrc ver 6\6IO_Lib;$(BCB)\include;$(BCB)\include\vcl
+Item19=..\IO_Lib;C:\APRO\source;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;D:\CSrc ver 6\6IO_Lib;$(BCB)\include;$(BCB)\include\vcl
+Item20=C:\APRO\source;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;D:\CSrc ver 6\6IO_Lib;$(BCB)\include;$(BCB)\include\vcl
+Item21=C:\APRO\source;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;..\IO_LIB;$(BCB)\include;$(BCB)\include\vcl
+Item22=C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;..\IO_LIB;$(BCB)\include;$(BCB)\include\vcl
+Item23=..\Keypads;E:\Program Files\Iocomp\Components\CBuilder5\;D:\Program Files\Iocomp\Components\CBuilder5\;D:\Program Files\Borland\CBuilder5\Lib\ZBuilder\;c:\Program Files\Borland\CBuilder5\Lib\ZCommPack\;C:\Program Files\Borland\CBuilder5\Bin\;C:\Program Files\Borland\CBuilder5\Lib\ZBuilder\;C:\Program Files\Iocomp\Components\CBuilder5\;..\IO_LIB;$(BCB)\include;$(BCB)\include\vcl
+Item24=..\Keypads;E:\Program Files\Iocomp\Components\CBuilder5\;D:\Program Files\Iocomp\Components\CBuilder5;D:\Program Files\Borland\CBuilder5\Lib\ZBuilder;c:\Program Files\Borland\CBuilder5\Lib\ZCommPack\;C:\Program Files\Borland\CBuilder5\Bin\;C:\Program Files\Borland\CBuilder5\Lib\ZBuilder\;C:\Program Files\Iocomp\Components\CBuilder5\;..\IO_LIB;$(BCB)\include;$(BCB)\include\vcl
+Item25=..\Keypads;E:\Program Files\Iocomp\Components\CBuilder5\;c:\Program Files\Borland\CBuilder5\Lib\ZCommPack\;C:\Program Files\Borland\CBuilder5\Bin\;C:\Program Files\Borland\CBuilder5\Lib\ZBuilder\;C:\Program Files\Iocomp\Components\CBuilder5\;..\IO_LIB;$(BCB)\include;$(BCB)\include\vcl
+Item26=E:\Program Files\Iocomp\Components\CBuilder5\;c:\Program Files\Borland\CBuilder5\Lib\ZCommPack\;C:\Program Files\Borland\CBuilder5\Bin\;C:\Program Files\Borland\CBuilder5\Lib\ZBuilder\;C:\Program Files\Iocomp\Components\CBuilder5\;..\IO_LIB;$(BCB)\include;$(BCB)\include\vcl
+Item27=E:\Program Files\Iocomp\Components\CBuilder5\;E:\Program Files\Borland\CBuilder5\Lib\ZCommPack\;C:\Program Files\Borland\CBuilder5\Bin\;C:\Program Files\Borland\CBuilder5\Lib\ZBuilder\;C:\Program Files\Iocomp\Components\CBuilder5\;..\IO_LIB;$(BCB)\include;$(BCB)\include\vcl
+Item28=E:\Program Files\Iocomp\Components\CBuilder5;E:\Program Files\Borland\CBuilder5\Lib\ZCommPack;C:\Program Files\Borland\CBuilder5\Bin\;C:\Program Files\Borland\CBuilder5\Lib\ZBuilder\;C:\Program Files\Iocomp\Components\CBuilder5\;..\IO_LIB;$(BCB)\include;$(BCB)\include\vcl
+Item29=C:\Program Files\Borland\CBuilder5\Bin\;C:\Program Files\Borland\CBuilder5\Lib\ZBuilder\;C:\Program Files\Iocomp\Components\CBuilder5\;..\IO_LIB;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=30
+Item0=..\Cross-Tipple-Tmp\Sequoia Sentry v2 Cross Tipple;..\..\AccessViolation-test;C:\Program Files\Borland\CBuilder6\Include\Ventek;..;..\IO_Lib;$(BCB)\Bin;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\ExpressForumLibrary\C++Builder 6\Lib;c:\Iocomp\Product\CBuilder6
+Item1=C:\Program Files\Borland\CBuilder6\Include\Ventek;..;..\IO_Lib;$(BCB)\Bin;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\ExpressForumLibrary\C++Builder 6\Lib;c:\Iocomp\Product\CBuilder6
+Item2=C:\Program Files\Borland\CBuilder6\Include\Ventek;C:\Program Files\Developer Express Inc\ExpressForumLibrary\C++Builder 6\Lib;..;..\IO_Lib;D:\Iocomp\Product\CBuilder6;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\Bin;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Program Files\Developer Express Inc\ExpressForumLibrary\C++Builder 6\Lib;c:\Iocomp\Product\CBuilder6
+Item3=..\TemperatureTest;C:\Program Files\Borland\CBuilder6\Include\Ventek;C:\Program Files\Developer Express Inc\ExpressForumLibrary\C++Builder 6\Lib;..;..\IO_Lib;D:\Iocomp\Product\CBuilder6;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\Bin;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Program Files\Developer Express Inc\ExpressForumLibrary\C++Builder 6\Lib
+Item4=..\TemperatureTest;C:\Program Files\Borland\CBuilder6\Include\Ventek;C:\Program Files\Developer Express Inc\ExpressForumLibrary\C++Builder 6\Lib;..;..\IO_Lib;D:\Iocomp\Product\CBuilder6;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\Bin;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item5=C:\Program Files\Borland\CBuilder6\Include\Ventek;C:\Program Files\Developer Express Inc\ExpressForumLibrary\C++Builder 6\Lib;..;..\IO_Lib;D:\Iocomp\Product\CBuilder6;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\Bin;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item6=C:\Program Files\Developer Express Inc\ExpressForumLibrary\C++Builder 6\Lib;..;..\IO_Lib;D:\Iocomp\Product\CBuilder6;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\Bin;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item7=..;..\IO_Lib;D:\Iocomp\Product\CBuilder6;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\Bin;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item8=..;..\IO_Lib;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\Bin;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item9=..;..\IO_Lib;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item10=..\;..;..\IO_Lib;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item11=..\IO_Lib;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\APRO;C:\Program Files\APRO\source
+Item12=..\IO_Lib;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\APRO
+Item13=..\IO_Lib;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\CSrc ver 6\6IO_Lib;C:\Program Files\APRO
+Item14=..\IO_Lib;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\CSrc ver 6\6IO_Lib
+Item15=C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;D:\CSrc ver 6\6IO_Lib
+Item16=C:\APRO\source;C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\IO_Lib
+Item17=C:\Program Files\Borland\CBuilder6\Bin;C:\Program Files\Iocomp\Components\CBuilder6;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\IO_Lib
+Item18=..\Keypads;E:\Program Files\Iocomp\Components\CBuilder5\;c:\Program Files\Borland\CBuilder5\Lib\ZCommPack\;C:\Program Files\Borland\CBuilder5\Bin\;C:\Program Files\Borland\CBuilder5\Lib\ZBuilder\;$(BCB)\Projects\Lib;C:\Program Files\Iocomp\Components\CBuilder5\;..\IO_Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item19=E:\Program Files\Iocomp\Components\CBuilder5\;c:\Program Files\Borland\CBuilder5\Lib\ZCommPack\;C:\Program Files\Borland\CBuilder5\Bin\;C:\Program Files\Borland\CBuilder5\Lib\ZBuilder\;$(BCB)\Projects\Lib;C:\Program Files\Iocomp\Components\CBuilder5\;..\IO_Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item20=E:\Program Files\Iocomp\Components\CBuilder5\;E:\Program Files\Borland\CBuilder5\Lib\ZCommPack\;C:\Program Files\Borland\CBuilder5\Bin\;C:\Program Files\Borland\CBuilder5\Lib\ZBuilder\;$(BCB)\Projects\Lib;C:\Program Files\Iocomp\Components\CBuilder5\;..\IO_Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item21=E:\Program Files\Iocomp\Components\CBuilder5;E:\Program Files\Borland\CBuilder5\Lib\ZCommPack;C:\Program Files\Borland\CBuilder5\Bin\;C:\Program Files\Borland\CBuilder5\Lib\ZBuilder\;$(BCB)\Projects\Lib;C:\Program Files\Iocomp\Components\CBuilder5\;..\IO_Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item22=C:\Program Files\Borland\CBuilder5\Bin\;C:\Program Files\Borland\CBuilder5\Lib\ZBuilder\;$(BCB)\Projects\Lib;C:\Program Files\Iocomp\Components\CBuilder5\;..\IO_Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item23=C:\Program Files\Borland\CBuilder5\Bin;C:\Program Files\Borland\CBuilder5\Lib\ZBuilder;$(BCB)\Projects\Lib;C:\Program Files\Iocomp\Components\CBuilder5;..\IO_Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item24=E:\Program Files\Borland\CBuilder5\Bin\;E:\Program Files\Borland\CBuilder5\Lib\ZBuilder\;$(BCB)\Projects\Lib;E:\Program Files\Iocomp\Components\CBuilder5\;..\IO_Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item25=E:\Program Files\Borland\CBuilder5\Bin;E:\Program Files\Borland\CBuilder5\Lib\ZBuilder;$(BCB)\Projects\Lib;E:\Program Files\Iocomp\Components\CBuilder5;..\IO_Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item26=C:\Documents and Settings\qpowell\My Documents\My Pictures\;C:\Program Files\Borland\CBuilder5\Bin\;C:\Program Files\Borland\CBuilder5\Lib\ZBuilder\;$(BCB)\Projects\Lib;C:\Program Files\Iocomp\Components\CBuilder5\;..\IO_Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item27=C:\Documents and Settings\qpowell\My Documents\My Pictures;C:\Program Files\Borland\CBuilder5\Bin\;C:\Program Files\Borland\CBuilder5\Lib\ZBuilder\;$(BCB)\Projects\Lib;C:\Program Files\Iocomp\Components\CBuilder5\;..\IO_Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item28=D:\;s;ns;ons;Icons;s\Icons;les\Icons;mples\Icons;xamples\Icons;D:\Examples\Icons\;r5\Examples\Icons;der5\Examples\Icons;ilder5\Examples\Icons;uilder5\Examples\Icons;CBuilder5\Examples\Icons;d\CBuilder5\Examples\Icons;nd\CBuilder5\Examples\Icons;land\CBuilder5\Examples\Icons;rland\CBuilder5\Examples\Icons;Borland\CBuilder5\Examples\Icons;D:\Borland\CBuilder5\Examples\Icons\;s\Borland\CBuilder5\Examples\Icons;les\Borland\CBuilder5\Examples\Icons;iles\Borland\CBuilder5\Examples\Icons;Files\Borland\CBuilder5\Examples\Icons;m Files\Borland\CBuilder5\Examples\Icons;am Files\Borland\CBuilder5\Examples\Icons;ram Files\Borland\CBuilder5\Examples\Icons;gram Files\Borland\CBuilder5\Examples\Icons;ogram Files\Borland\CBuilder5\Examples\Icons;rogram Files\Borland\CBuilder5\Examples\Icons;Program Files\Borland\CBuilder5\Examples\Icons;D:\Program Files\Borland\CBuilder5\Examples\Icons\;:\Program Files\Borland\CBuilder5\Examples\Icons;C:\Program Files\Borland\CBuilder5\Examples\Icons\;C:\Program Files\Borland\CBuilder
+Item29=D:\;s\;ns\;ons;Icons;s\Icons;les\Icons;mples\Icons;xamples\Icons;D:\Examples\Icons;r5\Examples\Icons;der5\Examples\Icons;ilder5\Examples\Icons;uilder5\Examples\Icons;CBuilder5\Examples\Icons;d\CBuilder5\Examples\Icons;nd\CBuilder5\Examples\Icons;land\CBuilder5\Examples\Icons;rland\CBuilder5\Examples\Icons;Borland\CBuilder5\Examples\Icons;D:\Borland\CBuilder5\Examples\Icons;s\Borland\CBuilder5\Examples\Icons;les\Borland\CBuilder5\Examples\Icons;iles\Borland\CBuilder5\Examples\Icons;Files\Borland\CBuilder5\Examples\Icons;m Files\Borland\CBuilder5\Examples\Icons;am Files\Borland\CBuilder5\Examples\Icons;ram Files\Borland\CBuilder5\Examples\Icons;gram Files\Borland\CBuilder5\Examples\Icons;ogram Files\Borland\CBuilder5\Examples\Icons;rogram Files\Borland\CBuilder5\Examples\Icons;Program Files\Borland\CBuilder5\Examples\Icons;D:\Program Files\Borland\CBuilder5\Examples\Icons;:\Program Files\Borland\CBuilder5\Examples\Icons;C:\Program Files\Borland\CBuilder5\Examples\Icons;C:\Program Files\Borland\CBuilder5\
+
+[HistoryLists\hlDebugSourcePath]
+Count=3
+Item0=$(BCB)\Source\vcl;C:\Program Files\Borland\CBuilder6\Source\Indy\
+Item1=$(BCB)\Source\vcl
+Item2=c:\program files\borland\cbuilder5\source\vcl;C:\Program Files\Iocomp\Components\CBuilder5\
+
+[HistoryLists\hlConditionals]
+Count=2
+Item0=_DEBUG
+Item1=_RTLDLL
+
+[Debugging]
+DebugSourceDirs=$(BCB)\Source\vcl;C:\Program Files\Borland\CBuilder6\Source\Indy\
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=1
+LinkCGLIB=0
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
