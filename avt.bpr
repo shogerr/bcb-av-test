@@ -15,7 +15,7 @@
       vcl.lib rtl.lib"/>
     <SPARELIBS value="rtl.lib vcl.lib bcbsmp.lib vclx.lib dbrtl.lib vcldb.lib bdertl.lib 
       dclocx.lib iocomp65.lib vcldbx.lib tee.lib A406_R61.lib indy.lib 
-      dxForumLibC6.lib dclusr.lib"/>
+      dclusr.lib"/>
     <PACKAGES value="vclx.bpi rtl.bpi vcl.bpi dbrtl.bpi vcldb.bpi bdertl.bpi vcldbx.bpi 
       bcbsmp.bpi dclocx.bpi qrpt.bpi teeui.bpi teedb.bpi tee.bpi ibsmp.bpi 
       nmfast.bpi"/>
